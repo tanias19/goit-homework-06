@@ -406,6 +406,19 @@
                     </li>
                 </ul>
             </div>
+            <div class="subscribe-field">
+                <p class="right-header">Subscribe</p>
+                <form name="subscribe_form">
+                    <label for="subscribe_name">Email</label>
+                    <div>
+                        <input class="subscribe-input" type="text" name="subscribe_form" id="subscribe_form">
+                        <svg class="" width="20" height="20">
+                            <use href=""></use>
+                        </svg>
+
+                        <button class="hero-button subscribe-btn">Subscribe</button>
+                    </div>
+            </div>
         </div>
     </footer>
 
@@ -418,6 +431,39 @@
                     <use href="./images/icons.svg#closebtn"></use>
                 </svg>
             </button>
+
+            <p> Leave your contacts and we will call you back</p>
+            <form name="modal_form">
+                <label for="modal_name">Name</label>
+                <div>
+                    <input class="" type="text" name="modal_form" id="modal_form">
+                    <svg class="" width="20" height="20">
+                        <use href=""></use>
+                    </svg>
+                </div>
+                <label for="modal_phone">Phone</label>
+                <div>
+                    <input class="" type="text" name="modal_phone" id="modal_phone">
+                    <svg class="" width="" height="">
+                        <use href=""></use>
+                    </svg>
+                </div>
+                <label for="modal_email">Email</label>
+                <div>
+                    <input class="" type="text" name="modal_email" id="modal_email">
+                    <svg class="" width="" height="">
+                        <use href=""></use>
+                    </svg>
+                </div>
+
+                <label for="modal_comment">Comment</label>
+                <textarea name="modal_comment" id="modal_comment" rows="6" placeholder="Text input"></textarea>
+                <label>
+                    <input type="checkbox" name="modal_agreement">
+                    <span>I accept the terms and conditions of the Privacy Policy</span>
+                </label>
+                <button class="hero-button" type="submit">Send</button>
+            </form>
         </div>
     </div>
     <script src="./js/header.js"></script>
