@@ -266,8 +266,27 @@
                     </li>
                 </ul>
             </div>
+            <div class="subscribe-field">
+                <p class="right-header">Subscribe</p>
+                <form name="subscribe_form" class="subscribe-form">
+                    <label class="sub-footer-label" for="subscribe_form"></label>
+                    <input class="subscribe-input" type="email" name="e-mail" id="e-mail" placeholder="E-mail">
+                    <button class="hero-button subscribe-btn" type="submit">
+                        <p class="btn-form-text">Subscribe</p>
+                        <svg class="form-send" width="24" height="24">
+                            <use href="./images/icons.svg#send" width="20" height="20">
+                            </use>
+                        </svg>
+                    </button>
+                </form>
+            </div>
         </div>
     </footer>
+    <script src="./js/inputmask.min.js"></script>
+    <script src="./js/form.js"></script>
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="./js/animation-on-scroll.js"></script>
     <script src="./js/header.js"></script>
     <script src="./js/modal.js"></script>
 </body>
