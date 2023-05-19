@@ -705,10 +705,12 @@ margin-bottom: 8px;
 
 .checkbox:checked+.icon {
     border-color: #404BBF;
+    background-color:#404BBF;
     background-image: url(/images/checked.svg);
-    border-size: contain;
+    background-size: contain;
     background-origin:border-box;
 }
+
 .form-btn {
     display: block;
     margin: 0 auto;
