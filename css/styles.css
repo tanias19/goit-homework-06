@@ -706,7 +706,7 @@ margin-bottom: 8px;
 .checkbox:checked+.icon {
     border-color: #404BBF;
     background-color:#404BBF;
-    background-image: url(/images/checked.svg);
+    background-image: url(../images/checked.svg);
     background-size: contain;
     background-origin:border-box;
 }
